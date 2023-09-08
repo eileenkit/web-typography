@@ -1,4 +1,6 @@
 body{
 	/* this is the outermost element on your page*/
-	background: yellow;
+	background: rgb(229, 186, 251);
+	color:rgb(80, 13, 108);
+	font-family:'Helvetica', sans-serif;
 }
