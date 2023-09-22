@@ -1,0 +1,49 @@
+body{
+	/* this is the outermost element on your page*/
+	background: lightgray;
+	color:black;
+	font-family:'Helvetica', sans-serif;
+	font-weight:100;
+}
+ul{
+	list-style-type: none;
+	margin-left:-40px;
+}
+
+.circle {
+	height: 220px;
+	width: 220px;
+	border-radius: 50%;
+	opacity: 50%;
+	margin-bottom:10px;
+}
+.circle.red{
+	background-color:#913116;
+}
+.circle.blue{
+	background-color:#0c5a5c;
+}
+.circle-1{
+	margin-top:-100px;
+}
+.circle-3{
+	position:absolute;
+	margin-left:-230px;
+	margin-top:-230px;
+}
+.circle-7{
+	position:absolute;
+	margin-left:230px;
+	margin-top:-230px;
+}
+.circle-4, .circle-5, .circle-6{
+	margin-top:-115px;
+}
+.circles{
+	position:absolute;
+	margin-left:320px;
+}
+.main-copy{
+	position:absolute;
+	bottom:20px;
+}
